@@ -36,10 +36,11 @@ function App() {
         }
       >
         Teste nome
-        {/* CSS dinâmico 2 */}
-        <h2 className={redtitlle ? "red-title" : "title"}>
-          Este título vai ter classe dinâmica
-        </h2>
+      </h2>
+
+      {/* CSS dinâmico  */}
+      <h2 className={redtitlle ? "red-title" : "title"}>
+        Este título vai ter classe dinâmica
       </h2>
     </div>
   );
